@@ -1,0 +1,34 @@
+{
+  "name": "@40three/ngx-autofocus-directive",
+  "version": "9.0.0",
+  "author": {
+    "name": "40three GmbH",
+    "email": "info@40three.io",
+    "url": "http://40three.io"
+  },
+  "homepage": "https://github.com/40three/ngx-autofocus-directive",
+  "bugs": {
+    "url": "https://github.com/40three/ngx-autofocus-directive/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/40three/ngx-autofocus-directive.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0"
+  },
+  "main": "bundles/40three-ngx-autofocus-directive.umd.js",
+  "module": "fesm5/40three-ngx-autofocus-directive.js",
+  "es2015": "fesm2015/40three-ngx-autofocus-directive.js",
+  "esm5": "esm5/40three-ngx-autofocus-directive.js",
+  "esm2015": "esm2015/40three-ngx-autofocus-directive.js",
+  "fesm5": "fesm5/40three-ngx-autofocus-directive.js",
+  "fesm2015": "fesm2015/40three-ngx-autofocus-directive.js",
+  "typings": "40three-ngx-autofocus-directive.d.ts",
+  "metadata": "40three-ngx-autofocus-directive.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
