@@ -1,6 +1,6 @@
 {
   "name": "@40three/ngx-autofocus-directive",
-  "version": "9.0.0",
+  "version": "13.0.0",
   "author": {
     "name": "40three GmbH",
     "email": "info@40three.io",
@@ -18,8 +18,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^9.0.0",
-    "@angular/core": "^9.0.0"
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0"
   },
   "module": "fesm2015/40three-ngx-autofocus-directive.mjs",
   "es2020": "fesm2020/40three-ngx-autofocus-directive.mjs",
