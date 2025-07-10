@@ -21,9 +21,9 @@ class AutofocusDirective {
         }
     }
 }
-AutofocusDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: AutofocusDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive });
-AutofocusDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "12.0.0", version: "13.3.11", type: AutofocusDirective, selector: "[autofocus],[attr.autofocus]", inputs: { autofocus: "autofocus" }, ngImport: i0 });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: AutofocusDirective, decorators: [{
+AutofocusDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: AutofocusDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive });
+AutofocusDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "14.3.0", type: AutofocusDirective, selector: "[autofocus],[attr.autofocus]", inputs: { autofocus: "autofocus" }, ngImport: i0 });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: AutofocusDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: '[autofocus],[attr.autofocus]'
@@ -34,12 +34,10 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImpo
 
 class FtAutofocusModule {
 }
-FtAutofocusModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: FtAutofocusModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-FtAutofocusModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: FtAutofocusModule, declarations: [AutofocusDirective], imports: [CommonModule], exports: [AutofocusDirective] });
-FtAutofocusModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: FtAutofocusModule, imports: [[
-            CommonModule,
-        ]] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: FtAutofocusModule, decorators: [{
+FtAutofocusModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: FtAutofocusModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+FtAutofocusModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.3.0", ngImport: i0, type: FtAutofocusModule, declarations: [AutofocusDirective], imports: [CommonModule], exports: [AutofocusDirective] });
+FtAutofocusModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: FtAutofocusModule, imports: [CommonModule] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: FtAutofocusModule, decorators: [{
             type: NgModule,
             args: [{
                     imports: [
