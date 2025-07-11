@@ -11,5 +11,5 @@ export declare class AutofocusDirective implements AfterViewInit, OnDestroy {
     ngAfterViewInit(): void;
     ngOnDestroy(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<AutofocusDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<AutofocusDirective, "[autofocus],[attr.autofocus]", never, { "autofocus": "autofocus"; }, {}, never, never, false>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<AutofocusDirective, "[autofocus],[attr.autofocus]", never, { "autofocus": "autofocus"; }, {}, never, never, false, never>;
 }
