@@ -22,15 +22,19 @@
     "@angular/core": "^19.0.0"
   },
   "module": "fesm2022/40three-ngx-autofocus-directive.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/40three-ngx-autofocus-directive.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/40three-ngx-autofocus-directive.d.ts",
       "default": "./fesm2022/40three-ngx-autofocus-directive.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
 }
